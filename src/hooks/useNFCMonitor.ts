@@ -3,6 +3,7 @@ import { useMovementDetection } from './useMovementDetection';
 import { useAppContext } from '../context/AppProvider';
 import { initNFC, readTag } from '../services/nfc';
 import { alertMovement } from '../services/notification';
+=======
 
 /**
  * Hook to monitor NFC tag presence and phone movement.
@@ -32,6 +33,7 @@ export function useNFCMonitor({
       if (tag) {
         lastTagTimeRef.current = Date.now();
         setLastTagTime(lastTagTimeRef.current);
+=======
       }
     }, pollInterval);
 
@@ -49,6 +51,7 @@ export function useNFCMonitor({
       const timeSinceLastTag = now - lastTagTimeRef.current;
       if (timeSinceLastTag > missingTimeout && movementDetected) {
         alertMovement();
+=======
         reset();
       }
     }, 10000);

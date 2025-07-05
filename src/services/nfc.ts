@@ -4,6 +4,7 @@ export function initNFC() {
   return NfcManager.start();
 }
 
+=======
 export async function readTag() {
   try {
     await NfcManager.requestTechnology(NfcTech.Ndef, { alertMessage: 'Ready to scan NFC' });

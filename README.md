@@ -60,10 +60,13 @@ GoTag/
 git clone https://github.com/seunome/GoTag.git
 cd GoTag
 npm install
+
 npm start       # inicia o app (ou use `npx expo start`)
 npm run offline # inicia o app sem acesso à internet
 
 # ou use diretamente: `npx expo start --offline`
+
+=======
 
 # ou para compilar diretamente:
 # npm run android
