@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "GoTag",
+    "slug": "gotag",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android"],
+    "sdkVersion": "49.0.0",
+    "extra": {},
+    "githubUrl": "https://github.com/seunome/GoTag"
+  }
+}
