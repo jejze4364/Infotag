@@ -5,6 +5,7 @@
   "main": "src/App.tsx",
   "scripts": {
     "start": "expo start",
+    "dev": "expo start",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "test": "echo \"Error: no test specified\" && exit 0"

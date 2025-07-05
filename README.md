@@ -60,7 +60,8 @@ GoTag/
 git clone https://github.com/seunome/GoTag.git
 cd GoTag
 npm install
-npm start
+npm run dev # inicia o app em modo desenvolvimento (ou use `npm start`)
+
 # ou para compilar diretamente:
 # npm run android
 # npm run ios
